@@ -1,5 +1,5 @@
-data_file = open("day1/data.txt", "r")
-values = data_file.readlines()
+with open("day1/data.txt", "r") as data_file:
+    values = data_file.readlines()
 
 counter = -1
 previous = 0

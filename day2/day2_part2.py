@@ -1,5 +1,5 @@
-data_file = open("day2/data.txt", "r")
-values = data_file.readlines()
+with open("day2/data.txt", "r") as data_file:
+    values = data_file.readlines()
 
 values_processed = []
 

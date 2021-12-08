@@ -1,5 +1,5 @@
-data_file = open("day3/data.txt", "r")
-values = data_file.readlines()
+with open("day3/data.txt", "r") as data_file:
+    values = data_file.readlines()
 
 def binaryToDecimal(binary):
      
@@ -58,7 +58,7 @@ def compare_and_filter_uncommon(list, column):
 
 tmp = values
 tmp2 = values
-for i in range(0, 12):
+for i in range(len(values[0])):
     if len(tmp) > 1:
         tmp = compare_and_filter_common(tmp, i)
     

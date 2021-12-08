@@ -1,5 +1,5 @@
-data_file = open("day3/data.txt", "r")
-values = data_file.readlines()
+with open("day1/data.txt", "r") as data_file:
+    values = data_file.readlines()
 
 def binaryToDecimal(binary):
      
